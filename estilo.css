@@ -1,0 +1,208 @@
+*{
+    font-family: Century Gothic;
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    color: rgb(9, 56, 117);
+}
+.card1{
+    color: rgb(135, 161, 185);
+}
+.branco{
+    color: rgb(39, 64, 80);
+    
+}
+
+.imagem2{
+border-radius: 50px;
+}
+
+form .pub{
+    border-radius: 10px;
+    background: green!important;
+    transition: 1s;
+    color: rgb(248, 245, 245)!important;
+    border-color: rgb(141, 76, 76);
+}
+
+
+form button{
+    color: white!important;
+    background:rgb(16, 162, 16)!important; 
+}
+
+
+.post:hover{
+}
+
+form button{
+    margin-left: 2%;
+    border-color: rgb(26, 13, 13);
+    letter-spacing: 4px;
+    transition-duration: 1s;
+    padding: 2px;
+    color: rgb(252, 253, 253);
+    background: green!important;
+    margin-top: 2px;
+    border-radius: 10px;
+}
+.body{
+
+}
+
+.bi-baixo{
+    animation: praBaixo 0.5s ease-in infinite;
+}
+li{
+    margin-left: 5%;
+}
+
+.container{
+    width: 50%;
+}
+.login{
+    background: url('img/clouds-sky-day-s-blue.jpg');
+    width: 50%;
+    text-align: center;
+    
+}
+#Layer_1{
+    width: 50%;
+    height: 50%;
+}
+.desc{
+    margin-left: 15px;
+}
+.formulario{
+    text-align: center;
+}
+
+.form{
+    color: rgb(180, 245, 195);
+}
+.form{
+    width: 80%;
+    border-radius: 4px;
+    border-color: rgb(171, 226, 206);
+    box-shadow: 0px 2px 2px 2px;
+}
+.form:hover{
+    border-color: rgb(176, 231, 209);
+}
+span{
+    letter-spacing: 4px;
+}
+
+.cor1{
+    background: rgba(168, 92, 240, 0.651);
+    color: white;
+    border-radius: 5px;
+    padding: 1.5px;
+}
+
+.cor2{
+    background: rgb(126, 93, 93);
+    color: white;
+    border-radius: 5px;
+    padding: 1.5px;
+}
+
+
+.cor3{
+    background: rgb(212, 59, 153);
+    color: white;
+    border-radius: 5px;
+    padding: 1.5px;
+}
+.cor4{
+    background: rgb(46, 91, 128);
+    color: white;
+    border-radius: 5px;
+    padding: 1.5px;
+}
+
+.cor5{
+    background: rgb(42, 119, 113);
+    color: white;
+    border-radius: 5px;
+    padding: 1.5px;
+}
+
+.cor6{
+    background: rgb(13, 61, 13);
+    color: white;
+    border-radius: 5px;
+    padding: 1.5px;
+    border-color: rgba(57, 248, 9, 0.925);
+}
+
+.link{
+    color: white;
+}
+.row hr{
+    color: white;
+}
+
+.def li{
+    list-style: none;
+}
+.col-lg-6 h2, .texto{
+    color: rgb(62, 85, 116);
+    font-size: 15px;
+    width: 100%!important;
+}
+fieldset{
+    background: rgb(135, 161, 185);
+    height: 100%;
+    color: white;
+    border-radius: 0px 25px 25px 4px;
+}
+
+.bi1{
+    animation: mover 1s ease-out infinite;
+}
+
+.col-lg-3 h3{
+    margin-left: 3px;
+}
+.carousel{
+    border-radius: 16px;
+    
+}
+
+.imagem{
+    animation: moverCima 4s ease-out infinite;
+    margin-bottom: 10px;
+}
+
+@keyframes mover {
+    30%{
+        transform: translateX(20px);
+    }
+    50%{
+        transform: translateX(-20%);
+    }
+}
+
+@keyframes moverCima {
+    50%{
+       transform: translateY(10%);
+   }
+
+   100%{
+       transform: translateY(-14);
+   }
+
+}
+@keyframes praBaixo {
+     50%{
+        transform: translateY(20%);
+    }
+
+    100%{
+        transform: translateY(-20);
+    }
+
+}
